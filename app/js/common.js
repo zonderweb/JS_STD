@@ -21,5 +21,37 @@
 // var x = 123==123
 // document.write(x)
 
-var x = 123 == '123'
-document.write(x)
+// var x = 123 == '123'
+// document.write(x)
+
+// if (uslovie) {
+// 	// perviy block comand
+// }
+// else {
+// 	// vtoroy block comand
+// }
+
+
+
+
+// var txt = "Давайте познакомимся! Как вас зовут?"
+// var name = prompt(txt)
+
+// if (name == "") {
+// 	document.write("Жаль но вы не представились!")
+// }
+
+// else {
+// 	document.write("Приятно познакомится, "+name+"! ")
+// }
+
+
+var txt = "Давайте познакомимся! Как вас зовут?";
+var msg = "Жаль но вы не представились!";
+var name = prompt(txt);
+
+if(name != "") {
+	msg = "Приятно познакомится, "+name+"!"
+};
+
+document.write(msg);
